@@ -1,0 +1,20 @@
+[
+  {
+    "id": "soldier",
+    "name": "Soldat",
+    "faction": "humans",
+    "cost": 10
+  },
+  {
+    "id": "knight",
+    "name": "Chevalier",
+    "faction": "humans",
+    "cost": 25
+  },
+  {
+    "id": "orc_warrior",
+    "name": "Guerrier Orc",
+    "faction": "orcs",
+    "cost": 15
+  }
+]
