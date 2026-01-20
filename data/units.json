@@ -1,20 +1,45 @@
 [
   {
-    "id": "soldier",
-    "name": "Soldat",
-    "faction": "humans",
-    "cost": 10
+    "id": "Humanoide",
+    "name": "Homme de main",
+    "faction": "Sentient",
+    "cost": 4
   },
   {
-    "id": "knight",
-    "name": "Chevalier",
-    "faction": "humans",
+    "id": "Guerrier monstrueux",
+    "name": "Guerrier monstrueux",
+    "faction": "Sentient",
     "cost": 25
   },
   {
-    "id": "orc_warrior",
-    "name": "Guerrier Orc",
-    "faction": "orcs",
-    "cost": 15
+    "id": "Monture",
+    "name": "Monture",
+    "faction": "Animaux",
+    "cost": 5
+  }
+    {
+    "id": "Petit animal",
+    "name": "Petit animal",
+    "faction": "Animaux",
+    "cost": 3
+  },
+  {
+    "id": "Animal",
+    "name": "Animal",
+    "faction": "Animaux",
+    "cost": 3
+  },
+  {
+    "id": "Créature monstrueuse",
+    "name": "Créature monstrueuse",
+    "faction": "Animaux",
+    "cost": 20
+  }
+  {
+    "id": "Monstre",
+    "name": "Monstre",
+    "faction": "Animaux",
+    "cost": 40
   }
 ]
+
