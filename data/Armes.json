@@ -5,7 +5,8 @@
     "range":0,
     "physique":"P-1",
     "cost": 0,
-    "other":"-"
+    "other":"-",
+    "type":"CaC"
   },
   {
     "id": "sword",
@@ -13,7 +14,8 @@
     "range":0,
     "physique":"P",
     "cost": 1,
-    "other":"-"
+    "other":"-",
+    "type":"CaC"
   },
   {
     "id": "torche",
@@ -21,7 +23,8 @@
     "range":0,
     "physique":"P",
     "cost": 1,
-    "other":"sur chaque touche: 1-3 la torche compte désormais comme un gourdin, 4-6 la cible reçoit l’état “en feu” en plus de la touche."
+    "other":"sur chaque touche: 1-3 la torche compte désormais comme un gourdin, 4-6 la cible reçoit l’état “en feu” en plus de la touche.",
+    "type":"CaC"
   },
   {
     "id": "staff",
@@ -29,7 +32,8 @@
     "range":0,
     "physique":"P-1",
     "cost": 1,
-    "other":"parade, 2 mains"
+    "other":"parade, 2 mains",
+    "type":"CaC"
   },
   {
     "id": "spear",
@@ -37,15 +41,17 @@
     "range":0,
     "physique":"P",
     "cost": 2,
-    "other":"réception"
+    "other":"réception",
+    "type":"CaC"
   },
   {
     "id": "whip",
     "name": "fouet",
-    "range":0/2",
+    "range":0,
     "physique":"P-1",
     "cost": 2,
-    "other":"flexible, le fouet peut etre utilisé comme une arme à distance ou au corps à corps"
+    "other":"flexible, le fouet peut etre utilisé comme une arme à distance avec une portée de 2 pouces",
+    "type":"CaC"
   },
   {
     "id": "morningstar",
@@ -53,7 +59,8 @@
     "range":0,
     "physique":"P+1",
     "cost": 2,
-    "other":"2 mains, encombrant, flexible"
+    "other":"2 mains, encombrant, flexible",
+    "type":"CaC"
   },
   {
     "id": "percingW",
@@ -61,7 +68,8 @@
     "range":0,
     "physique":"P",
     "cost": 2,
-    "other":"perforante"
+    "other":"perforante",
+    "type":"CaC"
   },
   {
     "id": "morgenstern",
@@ -69,7 +77,8 @@
     "range":0,
     "physique":"P",
     "cost": 2,
-    "other":"flexible"
+    "other":"flexible",
+    "type":"CaC"
   },
   {
     "id": "duelsword",
@@ -77,7 +86,8 @@
     "range":0,
     "physique":"P",
     "cost": 3,
-    "other":"parade"
+    "other":"parade",
+    "type":"CaC"
   },
   {
     "id": "2handWeapon",
@@ -85,7 +95,8 @@
     "range":0,
     "physique":"P+2",
     "cost": 3,
-    "other":"2 mains, encombrant"
+    "other":"2 mains, encombrant",
+    "type":"CaC"
   },
   {
     "id": "hast",
@@ -93,7 +104,8 @@
     "range":0,
     "physique":"P+1",
     "cost": 3,
-    "other":"réception, 2 mains, encombrant"
+    "other":"réception, 2 mains, encombrant",
+    "type":"CaC"
   },
   {
     "id": "Lance",
@@ -101,7 +113,8 @@
     "range":0,
     "physique":"P+1",
     "cost": 3,
-    "other":"utilisable uniquement depuis une monture"
+    "other":"utilisable uniquement depuis une monture",
+    "type":"CaC"
   },
   {
     "id": "claw",
@@ -109,7 +122,8 @@
     "range":0,
     "physique":"P",
     "cost": 4,
-    "other":"parade, 2 mains, relance des 1 pour toucher"
+    "other":"parade, 2 mains, relance des 1 pour toucher",
+    "type":"CaC"
   },
   {
     "id": "Hallebarde",
@@ -117,8 +131,216 @@
     "range":0,
     "physique":"P+1",
     "cost": 4,
-    "other":"réception, 2 mains"
+    "other":"réception, 2 mains",
+    "type":"CaC"
   },
-
+  {
+    "id": "thrown",
+    "name": "javelot/hache de lancer",
+    "range":9,
+    "physique":"2",
+    "cost": 1,
+    "other":"-",
+    "type":"tir"
+  },
+  {
+    "id": "knife",
+    "name": "couteau de lancé",
+    "range":9,
+    "physique":"P-1",
+    "cost": 1,
+    "other":"tir multiple (2)",
+    "type":"tir"
+  },
+  {
+    "id": "net",
+    "name": "filet",
+    "range":4,
+    "physique":"-",
+    "cost": 1,
+    "other":"Une figurine touchée par cette arme est mise au sol à moins de réussir un jet de physique à 8+",
+    "type":"tir"
+  },
+  {
+    "id": "sling",
+    "name": "fronde/sarbacane",
+    "range":9,
+    "physique":"P",
+    "cost": 2,
+    "other":"tir multiple (2)",
+    "type":"tir"
+  },
+  {
+    "id": "arc court",
+    "name": "arc court",
+    "range":18,
+    "physique":"3",
+    "cost": 2,
+    "other":"",
+    "type":"tir"
+  },
+  {
+    "id": "flintlock",
+    "name": "pistolet/arbalète de poing",
+    "range":9,
+    "physique":"4",
+    "cost": 2,
+    "other":"",
+    "type":"tir"
+  },
+  {
+    "id": "arbalète",
+    "name": "arbalète",
+    "range":18,
+    "physique":"4",
+    "cost": 4,
+    "other":"mouvement et tir",
+    "type":"tir"
+  },
+  {
+    "id": "arc",
+    "name": "arc",
+    "range":24,
+    "physique":"3",
+    "cost": 4,
+    "other":"",
+    "type":"tir"
+  },
+  {
+    "id": "arc long",
+    "name": "arc long",
+    "range":30,
+    "physique":"4",
+    "cost": 5,
+    "other":"",
+    "type":"tir"
+  },
+  {
+    "id": "arquebuse",
+    "name": "arbalète lourde/ arquebuse",
+    "range":24,
+    "physique":"4",
+    "cost": 6,
+    "other":"perforant, mouvement et tir",
+    "type":"tir"
+  },
+  {
+    "id": "arcCompo",
+    "name": "arc composite/arbalète à répétition",
+    "range":24,
+    "physique":"3",
+    "cost": 6,
+    "other":"tir multiple (2)",
+    "type":"tir"
+  },
+  {
+    "id": "flammer",
+    "name": "lance flammes",
+    "range":12,
+    "physique":"3",
+    "cost": 6,
+    "other":"explosion, brutal, touche toujours sur 4+",
+    "type":"tir"
+  },
+    {
+    "id": "desarm",
+    "name": "machoir d'herbivore",
+    "range":0,
+    "physique":"P-1",
+    "cost": 0,
+    "other":"-",
+    "type":"animal"
+  },
+  {
+    "id": "horn",
+    "name": "Bec/corne/griffe/sabot/piques/machoire/arme rudimentaire",
+    "range":0,
+    "physique":"P",
+    "cost": 1,
+    "other":"-",
+    "type":"animal"
+  },
+  {
+    "id": "poisonBreath",
+    "name": "Souffle empoisonné",
+    "range":12,
+    "physique":"4",
+    "cost": 4,
+    "other":"brutal, mouvement et tir",
+    "type":"animal"
+  },
+  {
+    "id": "fireBreath",
+    "name": "Souffle enflammé",
+    "range":12,
+    "physique":"4",
+    "cost": 4,
+    "other":"mouvement et tir, une figurine touchée par cette attaque reçois l'état 'en feu'",
+    "type":"animal"
+  },
+  {
+    "id": "poisonDesarm",
+    "name": "Morsure/griffure empoisonnée",
+    "range":0,
+    "physique":"P",
+    "cost": 1,
+    "other":"",
+    "type":"affaiblissant, précis"
+  },
+  {
+    "id": "desarmRange",
+    "name": "crachat/projectile",
+    "range":9,
+    "physique":"3",
+    "cost": 1,
+    "other":"-",
+    "type":"animal"
+  },
+  {
+    "id": "tentacule",
+    "name": "tentacule",
+    "range":0,
+    "physique":"P",
+    "cost": 2,
+    "other":"entrave, peut etre utilisé comme une arme à distance avec une portée de 6 pouces",
+    "type":"animal"
+  },
+  {
+    "id": "bigMaw",
+    "name": "morsure monstrueuse",
+    "range":0,
+    "physique":"P",
+    "cost": 5,
+    "other":"une figurine avec plusieurs PV en perd 1d3 en cas de blessure",
+    "type":"monstre"
+  },
+  {
+    "id": "bigPoisonBreath",
+    "name": "Souffle empoisonné monstrueux",
+    "range":12,
+    "physique":"5",
+    "cost": 4,
+    "other":"explosion, brutal, mouvement et tir",
+    "type":"monstre"
+  },
+  {
+    "id": "bigFireBreath",
+    "name": "Souffle enflammé monstrueux",
+    "range":12,
+    "physique":"5",
+    "cost": 4,
+    "other":"explosion, mouvement et tir, une figurine touchée par cette attaque reçois l'état 'en feu'",
+    "type":"monstre"
+  },
+  {
+    "id": "throwImprov",
+    "name": "Projectile improvisé",
+    "range":24,
+    "physique":"6",
+    "cost": 8,
+    "other":"brutal, mouvement et tir",
+    "type":"monstre"
+  },
 ]
+
 
