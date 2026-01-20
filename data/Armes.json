@@ -1,0 +1,124 @@
+[
+  {
+    "id": "default",
+    "name": "dague/gourdin/poings",
+    "range":0,
+    "physique":"P-1",
+    "cost": 0,
+    "other":"-"
+  },
+  {
+    "id": "sword",
+    "name": "épée courte/hache/masse d'arme",
+    "range":0,
+    "physique":"P",
+    "cost": 1,
+    "other":"-"
+  },
+  {
+    "id": "torche",
+    "name": "torche",
+    "range":0,
+    "physique":"P",
+    "cost": 1,
+    "other":"sur chaque touche: 1-3 la torche compte désormais comme un gourdin, 4-6 la cible reçoit l’état “en feu” en plus de la touche."
+  },
+  {
+    "id": "staff",
+    "name": "baton long/bourdon",
+    "range":0,
+    "physique":"P-1",
+    "cost": 1,
+    "other":"parade, 2 mains"
+  },
+  {
+    "id": "spear",
+    "name": "lance",
+    "range":0,
+    "physique":"P",
+    "cost": 2,
+    "other":"réception"
+  },
+  {
+    "id": "whip",
+    "name": "fouet",
+    "range":0/2",
+    "physique":"P-1",
+    "cost": 2,
+    "other":"flexible, le fouet peut etre utilisé comme une arme à distance ou au corps à corps"
+  },
+  {
+    "id": "morningstar",
+    "name": "fléau d’arme/marteau météore",
+    "range":0,
+    "physique":"P+1",
+    "cost": 2,
+    "other":"2 mains, encombrant, flexible"
+  },
+  {
+    "id": "percingW",
+    "name": "cognée/bec de corbin/marteau de guerre",
+    "range":0,
+    "physique":"P",
+    "cost": 2,
+    "other":"perforante"
+  },
+  {
+    "id": "morgenstern",
+    "name": "morgenstern",
+    "range":0,
+    "physique":"P",
+    "cost": 2,
+    "other":"flexible"
+  },
+  {
+    "id": "duelsword",
+    "name": "épée longue/rapière",
+    "range":0,
+    "physique":"P",
+    "cost": 3,
+    "other":"parade"
+  },
+  {
+    "id": "2handWeapon",
+    "name": "flamberge/hache à deux mains",
+    "range":0,
+    "physique":"P+2",
+    "cost": 3,
+    "other":"2 mains, encombrant"
+  },
+  {
+    "id": "hast",
+    "name": "arme d'hast",
+    "range":0,
+    "physique":"P+1",
+    "cost": 3,
+    "other":"réception, 2 mains, encombrant"
+  },
+  {
+    "id": "Lance",
+    "name": "lance de cavalerie",
+    "range":0,
+    "physique":"P+1",
+    "cost": 3,
+    "other":"utilisable uniquement depuis une monture"
+  },
+  {
+    "id": "claw",
+    "name": "griffes de combat",
+    "range":0,
+    "physique":"P",
+    "cost": 4,
+    "other":"parade, 2 mains, relance des 1 pour toucher"
+  },
+  {
+    "id": "Hallebarde",
+    "name": "Hallebarde",
+    "range":0,
+    "physique":"P+1",
+    "cost": 4,
+    "other":"réception, 2 mains"
+  },
+
+]
+
