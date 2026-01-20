@@ -16,7 +16,7 @@
     "name": "Monture",
     "faction": "Animaux",
     "cost": 5
-  }
+  },
     {
     "id": "Petit animal",
     "name": "Petit animal",
@@ -34,7 +34,7 @@
     "name": "Créature monstrueuse",
     "faction": "Animaux",
     "cost": 20
-  }
+  },
   {
     "id": "Monstre",
     "name": "Monstre",
@@ -42,4 +42,5 @@
     "cost": 40
   }
 ]
+
 
