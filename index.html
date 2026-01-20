@@ -9,9 +9,34 @@
 
 <h1>Créateur de liste d'armée</h1>
 
+  <h1>Nouvelle recrue</h1>
 <select id="unitSelect"></select>
 <button id="addUnit">Ajouter</button>
 
+<p> option d'arme 1</p> <select id="weapon1Select"></select>
+
+<p> option d'arme 2</p> <select id="weapon2Select"></select>
+
+<p> Améliorations:</p>
+
+<fieldset>
+  <legend>Type de recrue:</legend>
+
+  <div>
+    <input type="radio" id="Hommedemain" name="homme de main" value="1" checked />
+    <label for="huey">Huey</label>
+  </div>
+
+  <div>
+    <input type="radio" id="dewey" name="drone" value="dewey" />
+    <label for="dewey">Dewey</label>
+  </div>
+
+  <div>
+    <input type="radio" id="louie" name="drone" value="louie" />
+    <label for="louie">Louie</label>
+  </div>
+</fieldset>  
 <h2>Liste d’armée</h2>
 <ul id="armyList"></ul>
 
@@ -20,3 +45,4 @@
 <script src="app.js"></script>
 </body>
 </html>
+
