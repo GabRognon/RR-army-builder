@@ -1,1 +1,20 @@
-
+[
+  {
+    "id": "default",
+    "name": "dague/gourdin/poings",
+    "range":0,
+    "physique":"P-1",
+    "cost": 0,
+    "other":"-",
+    "type":"CaC"
+  },
+  {
+    "id": "sword",
+    "name": "épée courte/hache/masse d'arme",
+    "range":0,
+    "physique":"P",
+    "cost": 1,
+    "other":"-",
+    "type":"CaC"
+  }
+]
