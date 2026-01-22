@@ -24,7 +24,7 @@ fetch("data/Armes.json")
 		if(weapon.range > 0){
 			weapon2.push(weapon);
 		}
-	}
+	};
     populateweapon(weapon1,weapon1Select);
     populateweapon(weapon2,weapon2Select);
   });
@@ -115,4 +115,5 @@ function renderArmy() {
 function saveArmy() {
   localStorage.setItem("army", JSON.stringify(army));
 }
+
 
