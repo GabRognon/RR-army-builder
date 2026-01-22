@@ -50,8 +50,21 @@ function populateOptionSelect() {
   options.forEach(optionsi => {
     const option = document.createElement("option");
     option.value = optionsi.id;
-    option.textContent = `${optionsi.name} (${optionsi.cost} pts)`;
-    optionSelect.appendChild(option);
+    option.textContent = `${optionsi.name} pts)`; 
+		var li = $('<li/>')
+            .addClass('ui-menu-item')
+            .attr('role', 'menuitem')
+            .appendTo(optionSelect);
+
+        var input = $('<input/>')
+            .addClass('ui-all')
+            .attr('type', 'checkbox')
+            .appendTo(li);
+
+       var aaa = $('<a/>')
+            .addClass('ui-all')
+            .text(optionsi.name)
+            .appendTo(li);
   });
 }
   
